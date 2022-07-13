@@ -1,0 +1,395 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.first-section {
+    text-align: center;
+    background-image: url("images/donation5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+}
+
+.first-sec-div-parent-1 {
+    position: absolute;
+    top: 320px;
+    left: 500px;
+    font-size: 25px;
+    color: white;
+}
+
+.first-sec-div-parent-2 {
+    position: absolute;
+    top: 420px;
+    left: 150px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.first-sec-anchor-1 {
+    background-color: tomato;
+    text-decoration: none;
+    color: white;
+    padding: 20px 60px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.first-sec-div-parent-3 {
+    position: absolute;
+    top: 480px;
+    left: 580px;
+}
+
+.section-2 {
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    background-color: beige;
+}
+
+.second-sec-div-parent-1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.second-sec-div-parent-2 {
+    width: 800px;
+    text-align: justify;
+    margin-left: 300px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.card-parent-1 {
+    width: 120px;
+    height: 120px;
+    padding: 5px;
+    margin: 12px;
+
+
+}
+
+.card-parent-2 {
+    width: 120px;
+    height: 120px;
+    border: 2px solid red;
+    margin: 12px;
+    padding: 5px;
+    background-color: rgb(219, 205, 205);
+    color: red;
+
+}
+
+.card-parent-3 {
+    width: 120px;
+    height: 120px;
+    padding: 5px;
+    margin: 12px;
+
+}
+
+.card-parent-4 {
+    width: 120px;
+    height: 120px;
+    padding: 5px;
+    margin: 12px;
+
+}
+
+.card-parent-5 {
+    width: 120px;
+    height: 120px;
+    padding: 5px;
+    margin: 12px;
+
+}
+
+.card-child-1 {
+    margin-top: 45px;
+    text-align: center;
+}
+
+
+
+
+.second-sec-div-parent-3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.second-sec-anchor-2 {
+    background-color: tomato;
+    text-decoration: none;
+    color: white;
+    padding: 20px 60px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.second-sec-div-parent-4 {
+    position: absolute;
+    top: 320px;
+    left: 550px;
+
+
+}
+
+.section-3 {
+    margin-top: 100px;
+    background-color: bisque;
+}
+
+.third-sec-div-parent-1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.third-sec-div-parent-2 {
+    width: 940px;
+    text-align: justify;
+    margin-left: 220px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.card-1 {
+    width: 320px;
+    height: 300px;
+    box-shadow: 1px 1px 1px black;
+    margin: 15px;
+    background-color: antiquewhite;
+}
+
+.card-2 {
+    width: 320px;
+    height: 300px;
+    box-shadow: 1px 1px 1px black;
+    margin: 15px;
+    background-color: azure;
+}
+
+.card-3 {
+    width: 320px;
+    height: 300px;
+    box-shadow: 1px 1px 1px black;
+    margin: 15px;
+    background-color: beige;
+}
+
+.card-img-1 {
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+.card-heading-child {
+    text-align: center;
+}
+
+.card-para-parent {
+    text-align: center;
+    text-align: justify;
+    margin: 3px;
+    margin-top: 10px;
+    padding: 7px;
+}
+
+.third-sec-div-parent-3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.fourth-sec-para-1 {
+    width: 70%;
+    text-align: justify;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.fourth-sec-heading-1 {
+    font-size: 25px;
+
+}
+
+.fourth-sec-anchor-1 {
+    text-decoration: none;
+    color: white;
+    padding: 15px 40px;
+    background-color: tomato;
+    font-weight: bold;
+    border-radius: 10px;
+
+
+
+}
+
+.fourth-sec-div-parent-1 {
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.section-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+    margin-top: 20px;
+}
+
+.fourth-sec-div-parent-2 {
+
+    width: 2000px;
+    height: 300px;
+
+    background-image: url("images/donation8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 200px;
+}
+
+.section-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+    margin-top: 20px;
+}
+
+.fifth-sec-div-parent-2 {
+
+    width: 10%;
+    height: 300px;
+
+    background-image: url("images/donation6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 200px;
+}
+
+.fifth-sec-para-1 {
+    width: 90%;
+    text-align: justify;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.fifth-sec-heading-1 {
+    font-size: 25px;
+
+}
+
+.fifth-sec-anchor-1 {
+    text-decoration: none;
+    color: white;
+    padding: 15px 40px;
+    background-color: tomato;
+    font-weight: bold;
+    border-radius: 10px;
+
+
+
+}
+
+.fifth-sec-div-parent-1 {
+    margin-top: 20px;
+    margin-right: 300px;
+}
+
+
+.fifth-sec-div-parent-2 {
+
+    width: 2000px;
+    height: 300px;
+
+    background-image: url("images/donation8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 200px;
+}
+
+.sixth-sec-heading-1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.sixth-sec-para-1 {
+    text-align: justify;
+    width: 810px;
+    margin-left: 280px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.sixth-sec-div-parent-3 {
+    width: 500px;
+    height: 100px;
+    background-color: bisque;
+    margin-top: 40px;
+    margin-left: 450px;
+}
+
+.sixth-sec-div-parent-3 {
+    position: relative;
+}
+
+.sixth-sec-input-1 {
+    position: absolute;
+    top: 40px;
+    left: 120px;
+}
+
+.input-mail {
+    background-color: gray;
+    height: 30px;
+
+}
+
+.btn-btn {
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 30px;
+
+}
+
+footer {
+    width: 900px;
+    height: 130px;
+    background-color: rgb(3, 3, 29);
+    margin-left: 220px;
+    border-radius: 10px;
+    margin-top: 80px;
+    position: relative;
+}
+
+.footer-heading-1 {
+    color: tomato;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.footer-heading-2 {
+    color: white;
+}
+
+.footer-div-parent-1 {
+    top: 30px;
+    position: absolute;
+    left: 350px;
+}
